@@ -20,5 +20,5 @@ Then, compile the Go userspace application:
 cd ..
 go build
 ```
-📁 Important: After building, move or copy the compiled ioNet.bpf.o file from eBPF_module/ into the same directory as the ionet binary.
+📁 Important: After building, move or copy the compiled ioNet.o file from eBPF_module/ into the same directory as the ionet binary.
 The userspace program expects the eBPF object file to be in the same folder.
